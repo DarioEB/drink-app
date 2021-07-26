@@ -1,0 +1,93 @@
+.drink {
+    padding: 15px;
+    border: 1px solid #2e2c2c;
+    border-radius: 8px;
+    margin: 0 1em;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .drink {
+        margin: 0;
+    }
+}
+.drink-title {
+    color: white;
+    /* font-family: 'Dancing Script', cursive; */
+}
+.drink-title > h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0 0 1rem 0;
+}
+.drink-img {
+
+}
+.drink-img > img {
+    width: 100%;
+    border-radius: 8px;
+}
+.drink-btn {
+    padding: .5em 2.5em;
+    color: white;
+    border: none;
+    margin: 1rem 0 0 0;
+    font-size: 1.2rem;
+    background-color: rgb(214, 6, 110);
+    border-radius: 8px;
+    width: 100%;
+    transition: all .3s ease;
+}
+@media (min-width: 992px) {
+    .drink-btn:hover {
+        cursor: pointer;
+        background-color: rgba(214, 6, 110, 0.8);
+    }
+}
+
+.drink-details{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(214, 6, 110);
+    border-radius: 8px;
+}
+@media (min-width: 992px) {
+    .drink-details {
+        width: 450px;
+    }
+}
+.detail-title {
+    color: white;
+    text-align: center;
+}
+.detail-instruction {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: white;
+    display: none;
+}
+.detail-instruction-text {
+    color: white;
+    line-height: 1.5;
+    font-size: .8rem;
+    text-align: justify;
+    margin: 1em 0;
+}
+.detail-img {
+    border-radius: 16px;
+    width: 50%;
+    margin: 0 auto;
+}
+.detail-ingredients {
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    margin: 1em 0;
+}
+.detail-ingredients-list {
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    list-style: none;
+    font-size: .8rem;
+}

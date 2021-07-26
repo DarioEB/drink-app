@@ -1,0 +1,13 @@
+.content-drink-list {
+    display: grid;
+    gap: 1.8rem;
+}
+@media (min-width: 992px) {
+    .content-drink-list {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.2rem;
+    }
+}
+.content-drink-list > div {
+    text-align: center;
+}

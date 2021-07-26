@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    /* border-bottom: 1px solid #e1e1e1; */
+}
+header > div > img {
+    max-width: 64px;
+}
+header > div > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Dancing Script', cursive;
+}

@@ -1,0 +1,19 @@
+.alert {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: .5em;
+}
+.alert > p {
+    padding: 1em;
+    margin: 0;
+}
+@media (min-width: 568px) {
+    .alert {
+        width: 50%;
+    }
+}
